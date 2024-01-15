@@ -1,0 +1,45 @@
+ body{
+     background-color:#CCC;
+ }
+.selections{
+    display:flex;
+    justify-content:center;
+}
+.selection{
+    background:none;
+    border:none;
+    outline:none;
+    cursor: pointer;
+    font-size:5rem;
+    transition: 100ms;
+}
+.selection:hover{
+    transform: scale(1.2);
+}
+.results{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:2rem;
+    margin-top:1rem;
+    display:grid;
+    justify-content:center;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+    align-items: center;
+    align-self: auto;
+    text-decoration: Bold;
+}
+.result-score{
+    margin-left: .1rem;
+    font-size:1.3rem;
+    color: rgb(21, 61, 48);
+}
+.result-selection{
+    opacity: .5;
+    font-size: 3rem;
+
+}
+.result-selection.winner{
+    opacity: 1;
+    font-size: 3rem;
+    
+}
